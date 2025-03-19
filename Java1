@@ -23,3 +23,6 @@ public class Main {
     }
     int soma(int valor, int valor2){
         return valor+valor2;
+
+    }
+}
