@@ -1,17 +1,25 @@
-    String nome= "Henrique";
+public class Main {
+    public static void main(String[] args) {
+     /*   String nome= "Henrique";
         System.out.println("O professor:\nNome:"+nome + "\nidade:33");
-        System.out.printf("Nome: %s \nNome:%2$S, \nNome:%1$s", nome, "dias");
+        System.out.printf("Nome: %s \nNome:%2$S, \nNome:%1$s", nome, "dias");*/
 
-        int n1= 0;
+       /* int n1= 0;
         int n2= 2;
         boolean comparador= n1==n2;
         System.out.println(comparador);
         boolean comparador2= (n1>=n2) && (n1<n2);
         System.out.println(comparador2);
         boolean comparador3= (n1>=n2) || (n1<n2);
-        System.out.println(comparador3);
+        System.out.println(comparador3);*/
 
-        double = a + b;
+        /*double = a + b;
         long x = 555555555555L;
         int i =(int)x;
-        System.out.println(i);
+        System.out.println(i);*/
+
+        Main m = new Main();
+        System.out.println(m.soma(3,2));
+    }
+    int soma(int valor, int valor2){
+        return valor+valor2;
