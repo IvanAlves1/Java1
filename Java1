@@ -19,10 +19,16 @@ public class Main {
         System.out.println(i);*/
 
         Main m = new Main();
-        System.out.println(m.soma(3,2));
+        System.out.println(m.soma(8, 2));
+        System.out.println(m.divisao(8,4));
     }
-    int soma(int valor, int valor2){
-        return valor+valor2;
 
+    int soma(int valor, int valor2) {
+        return valor + valor2;
+
+    }
+
+    double divisao(double valor, double valor2) {
+        return valor/valor2;
     }
 }
