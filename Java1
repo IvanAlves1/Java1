@@ -1,0 +1,17 @@
+    String nome= "Henrique";
+        System.out.println("O professor:\nNome:"+nome + "\nidade:33");
+        System.out.printf("Nome: %s \nNome:%2$S, \nNome:%1$s", nome, "dias");
+
+        int n1= 0;
+        int n2= 2;
+        boolean comparador= n1==n2;
+        System.out.println(comparador);
+        boolean comparador2= (n1>=n2) && (n1<n2);
+        System.out.println(comparador2);
+        boolean comparador3= (n1>=n2) || (n1<n2);
+        System.out.println(comparador3);
+
+        double = a + b;
+        long x = 555555555555L;
+        int i =(int)x;
+        System.out.println(i);
